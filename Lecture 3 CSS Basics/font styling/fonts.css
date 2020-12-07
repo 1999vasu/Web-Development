@@ -1,0 +1,17 @@
+#para1{
+    font-size: 30px;
+    /*font-size: 10vh; 1 vh = 1/100 of window size */
+}
+
+#para2{
+    font-family: monospace;
+}
+
+#para3{
+    font-style: oblique;
+    font-weight: bolder;
+}
+#para4{
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
