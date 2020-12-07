@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+    color : beige;
+    background-color: green;
+    margin: 30px;
+}
+
+.one{
+    transform: scale(1.5,1.5);
+}
+
+.two{
+    transform: rotate(30deg);
+}
+
+.three{
+    transform: translate(20px,50px);
+}
+
+.four{
+    transform: translateX(100px) rotate(45deg);
+}
+
+/*translate rotate != rotate translate*/
+
+.five{
+    transform: skewX(40deg);
+}
