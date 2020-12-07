@@ -1,0 +1,17 @@
+.box{
+    margin:20px;
+    padding :10px;
+    border: solid black 5px;
+}
+
+#div1{
+    background-color: lightgreen;
+}
+
+#div2{
+    background-color: orange;
+}
+
+#div3{
+    background-color: yellow;
+}
