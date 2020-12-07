@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    margin: 40px;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;/*for horizontal aligning in row*/
+    align-items:center; /*for vertical aligning in row*/
+
+    /* how all rows are aligned*/
+    align-content: space-around;
+}
+
+.item{
+    border: dotted black 1px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: lightgreen;
+    font-size: 20px;
+}
