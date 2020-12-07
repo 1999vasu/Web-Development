@@ -5,7 +5,6 @@
     width: 400px;
     background-color: aqua;
     flex-wrap: wrap;
-    display: flex;
     flex-direction: row;
     justify-content: center;/*for horizontal aligning in row*/
     align-items:center; /*for vertical aligning in row*/
