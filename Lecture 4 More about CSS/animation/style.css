@@ -14,7 +14,7 @@
     border: solid black 1px;
     display: inline-block;
 
-    animation: bounce 1s;
+    animation: bounce 2s;
     animation-iteration-count: infinite;
     
 }
