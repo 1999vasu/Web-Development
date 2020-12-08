@@ -1,0 +1,51 @@
+.container{
+    height: auto;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    background-color: linen;
+}
+
+.item{
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    background-color: mediumorchid;
+    font-size: 20px;
+    border: solid black 1px;
+
+}
+
+.one > .four{
+    position: absolute;
+    top:100px;
+    left:100px;
+
+}
+
+.one > .five{
+    position: fixed;
+    top:100px;
+    left:100px;
+
+}
+
+.container > .one{
+    position: sticky;
+    top: 30px;
+}
+
+.container > .two{
+    position: sticky;
+    z-index: -10;
+    top: 30px;
+    bottom: 30px;
+}
+
+.item:nth-child(5n){
+    background-color: brown;
+}
+
+.container:nth-child(2n){
+    background-color: yellow;
+}
