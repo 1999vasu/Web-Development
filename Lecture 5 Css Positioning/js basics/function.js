@@ -29,3 +29,12 @@ function area(height,width){
 
 console.log("area(3,4) ", area(3,4))
 console.log("area(3) ", area(3))
+
+
+function hello(){
+
+    console.log('hello world',arguments[0] + arguments[1])
+}
+
+hello(1,2)
+hello("Vasu ","Gupta ")
