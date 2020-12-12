@@ -39,3 +39,21 @@ console.log(fun.__proto__==Function.prototype)
 //String prototype inherits from Object Prototype
 
 console.log(typeof Object.create(Boolean.prototype))
+
+console.log(str.charAt(4))
+console.log(typeof str.charAt)
+let str2 = ' adjfdlafjl'
+console.log(str.charAt == str2.charAt) //true
+
+str.charAt = function(){ return 'x'} // doesnot make a difference
+
+String.prototype.charAt = function(){return 'X'}
+console.log(str.charAt(4))
+
+
+Array.prototype.joinOriginal = Array.prototype.join
+Array.prototype.join = function(){
+    console.log("joint called on ",this)
+    return this.joinOriginal(...arguments)
+
+}
