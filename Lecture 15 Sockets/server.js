@@ -9,6 +9,14 @@ const io = sockeIo(server)
 io.on('connection',(socket)=>{ 
     console.log("Connected with socket id: ",socket.id)
 
+    socket.on('boom',()=>{
+        console.log("Boom received from ",socket.id)
+    })
+
+    setInterval(()=>{
+        socket.emit("whizz")
+    },2000)
+
 })
 app.use('/',express.static(__dirname+'/public'))
 
